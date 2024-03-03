@@ -1,9 +1,10 @@
+import Navbar from "../../Components/Navbar/Navbar";
 
 
 const Home = () => {
     return (
-        <div>
-            Home
+        <div className="max-w-7xl mx-auto">
+            <Navbar></Navbar>
         </div>
     );
 };
