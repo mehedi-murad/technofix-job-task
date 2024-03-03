@@ -5,7 +5,7 @@ import icon4 from '../../assets/Trusted/deloitte.png'
 import icon5 from '../../assets/Trusted/okta.png'
 const Trusted = () => {
     return (
-        <div className='m-32 space-y-6'>
+        <div className='my-32 space-y-6'>
             <p className='text-center'>Trusted by 45M+ users</p>
             <div className='flex items-center justify-evenly gap-10'>
                 <img src={icon1} alt="" />
