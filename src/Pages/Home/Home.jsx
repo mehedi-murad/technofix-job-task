@@ -2,6 +2,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Banner from "../Banner/Banner";
 import Collaborate from "../Collaborate/Collaborate";
 import Connect from "../Connect/Connect";
+import Section from "../Section/Section";
 import Together from "../Together/Together";
 import Trusted from "../Trusted/Trusted";
 
@@ -16,6 +17,7 @@ const Home = () => {
                 <Collaborate></Collaborate>
                 <Together></Together>
                 <Connect></Connect>
+                <Section></Section>
             </div>
             
         </div>
