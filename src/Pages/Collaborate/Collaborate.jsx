@@ -1,10 +1,11 @@
 import Button from "../../Components/Button/Button";
 import Heading from "../../Components/Heading/Heading";
 import Paragraph from "../../Components/Paragraph/Paragraph";
+import stickerImg from "../../assets/images/sticker.png"
 
 const Collaborate = () => {
     return (
-        <div className="my-40">
+        <div className="my-40 relative">
             <div className="text-center mb-8 w-[550px] mx-auto">
                 <Heading title="Collaborate without constraints"></Heading>
             </div>
@@ -24,6 +25,9 @@ const Collaborate = () => {
             </div>
             <div className="w-64 mx-auto mt-20">
                 <Button heading="Sign up free"></Button>
+            </div>
+            <div className="absolute top-[-19%] right-[24%]">
+                <img src={stickerImg} alt="" />
             </div>
         </div>
     );
