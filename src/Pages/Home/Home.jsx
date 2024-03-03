@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import Banner from "../Banner/Banner";
 import Built from "../Built/Built";
@@ -25,7 +26,7 @@ const Home = () => {
                 <Teams></Teams>
                 <Testimonials></Testimonials>
             </div>
-            
+            <Footer></Footer>
         </div>
     );
 };
