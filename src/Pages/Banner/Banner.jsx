@@ -5,7 +5,7 @@ import Button from "../../Components/Button/Button";
 
 const Banner = () => {
   return (
-    <div className="max-w-[1140px] mx-auto m-20">
+    <div className="m-20">
       <div className="flex flex-col lg:flex-row gap-10">
         <div className="flex-1 space-y-6">
           <h1 className="font-bold text-5xl w-[376px]">
