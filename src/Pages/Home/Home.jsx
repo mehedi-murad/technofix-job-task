@@ -5,6 +5,7 @@ import Collaborate from "../Collaborate/Collaborate";
 import Connect from "../Connect/Connect";
 import Section from "../Section/Section";
 import Teams from "../Teams/Teams";
+import Testimonials from "../Testimonials/Testimonials";
 import Together from "../Together/Together";
 import Trusted from "../Trusted/Trusted";
 
@@ -22,6 +23,7 @@ const Home = () => {
                 <Section></Section>
                 <Built></Built>
                 <Teams></Teams>
+                <Testimonials></Testimonials>
             </div>
             
         </div>
