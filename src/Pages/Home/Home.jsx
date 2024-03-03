@@ -1,5 +1,6 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import Banner from "../Banner/Banner";
+import Built from "../Built/Built";
 import Collaborate from "../Collaborate/Collaborate";
 import Connect from "../Connect/Connect";
 import Section from "../Section/Section";
@@ -18,6 +19,7 @@ const Home = () => {
                 <Together></Together>
                 <Connect></Connect>
                 <Section></Section>
+                <Built></Built>
             </div>
             
         </div>
