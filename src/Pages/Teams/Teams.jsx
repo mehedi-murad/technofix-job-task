@@ -9,15 +9,15 @@ import logo from "../../assets/images/logoIcon.png"
 
 const Teams = () => {
     return (
-        <div className="my-32">
+        <div className="my-32 p-4">
             <div>
                 <Heading title="Built for all kinds of teams" />
             </div>
             <div>
                 <CourseCategory></CourseCategory>
             </div>
-            <div className="flex gap-10 mt-12">
-                <div className="w-[40%] space-y-8 pr-20 mt-5">
+            <div className="flex flex-col md:flex-row gap-10 mt-12">
+                <div className="md:w-[40%] space-y-8 md:pr-20 mt-5">
                     <div className="space-y-6">
                         <div className="flex items-center gap-3">
                             <img src={tickIcon} alt="" />
@@ -45,7 +45,7 @@ const Teams = () => {
                         <img src={logo} alt="" />
                     </div>
                 </div>
-                <div className="w-[60%]">
+                <div className="md:w-[60%]">
                     <img src={divImg} alt="" />
                 </div>
             </div>

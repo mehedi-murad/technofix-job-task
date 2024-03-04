@@ -19,7 +19,7 @@ const Testimonials = () => {
                 <FaArrowRightLong />
             </div>
 
-            <div className="flex flex-col lg:flex-row gap-14 mt-12">
+            <div className="flex flex-col lg:flex-row gap-14 mt-12 p-4">
                 <div className="space-y-4">
                     <img src={image1} alt="" />
                     <Paragraph description="“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”" />

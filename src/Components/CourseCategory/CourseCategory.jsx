@@ -12,7 +12,7 @@ const CourseCategory = () => {
     ])
     return (
         <div className="mt-10">
-            <ul className="flex gap-2">
+            <ul className="flex flex-col md:flex-row gap-2">
                 {courses.map((course, index) => (
                     <li className="border-2 rounded-full py-4 px-6 hover:bg-[#F1F3FD]" key={index}>{course}</li>
                 ))}

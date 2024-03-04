@@ -5,7 +5,7 @@ import Button from "../../Components/Button/Button";
 
 const Banner = () => {
   return (
-    <div className="my-20">
+    <div className="my-20 p-4">
       <div className="flex flex-col lg:flex-row gap-10">
         <div className="flex-1 space-y-6">
           <h1 className="font-bold text-5xl w-[376px]">
@@ -16,7 +16,7 @@ const Banner = () => {
             create — together.
           </p>
 
-          <div className="space-y-2 w-[440px]">
+          <div className="space-y-2 md:w-[440px]">
             <input
               type="text"
               placeholder="Enter your work email"

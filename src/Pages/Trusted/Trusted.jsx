@@ -7,7 +7,7 @@ const Trusted = () => {
     return (
         <div className='my-32 space-y-6'>
             <p className='text-center'>Trusted by 45M+ users</p>
-            <div className='flex items-center justify-evenly gap-10'>
+            <div className='flex flex-col md:flex-row items-center justify-evenly gap-10'>
                 <img src={icon1} alt="" />
                 <img src={icon2} alt="" />
                 <img src={icon3} alt="" />

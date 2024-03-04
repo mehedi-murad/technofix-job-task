@@ -7,7 +7,7 @@ import m3Img from "../../assets/images/m3.png"
 const Connect = () => {
     return (
         <div className="mb-20">
-            <div className="flex gap-20 items-center">
+            <div className="flex flex-col-reverse md:flex-row gap-20 items-center p-4">
                 <div className="flex-1">
                     <img src={m3Img} alt="" />
                 </div>

@@ -6,10 +6,10 @@ import stickerImg from "../../assets/images/sticker.png"
 const Collaborate = () => {
     return (
         <div className="my-40 relative">
-            <div className="text-center mb-8 w-[550px] mx-auto">
+            <div className="text-center mb-8 md:w-[550px] mx-auto">
                 <Heading title="Collaborate without constraints"></Heading>
             </div>
-            <div className="flex gap-10">
+            <div className="flex flex-col md:flex-row gap-10 p-4">
                 <div className="space-y-8">
                     <h2 className="text-2xl font-bold text-[#050038]">Free forever</h2>
                     <Paragraph description="Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates. Signing up with your work email lets you bring in your team faster. See our pricing plans for more features."></Paragraph>
@@ -26,7 +26,7 @@ const Collaborate = () => {
             <div className="w-64 mx-auto mt-20">
                 <Button heading="Sign up free"></Button>
             </div>
-            <div className="absolute top-[-19%] right-[24%]">
+            <div className="absolute md:top-[-19%] top-[-8%] right-[24%]">
                 <img src={stickerImg} alt="" />
             </div>
         </div>

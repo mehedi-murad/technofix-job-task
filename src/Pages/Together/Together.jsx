@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Together = () => {
     return (
         <div className="mb-20">
-            <div className="flex gap-10 items-center">
+            <div className="flex flex-col md:flex-row gap-10 items-center p-4">
                 <div className="flex-1 space-y-8 pr-20">
                     <Heading title="Work together, wherever you work"></Heading>
                     <Paragraph description="In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."></Paragraph>

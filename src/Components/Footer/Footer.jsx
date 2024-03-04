@@ -6,8 +6,8 @@ import line from "../../assets/images/span.png"
 
 const Footer = () => {
     return (
-        <div className="bg-[#02033B] py-20 px-32">
-            <div className="flex justify-evenly gap-20 mb-16">
+        <div className="bg-[#02033B] py-20 md:px-32 p-4">
+            <div className="flex flex-col md:flex-row justify-evenly gap-20 mb-16">
                 <div className="space-y-12">
                     <h2 className="text-white text-3xl font-bold">Scan. Detect. Remove.</h2>
                     <div className="flex gap-8">

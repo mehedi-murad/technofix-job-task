@@ -14,8 +14,8 @@ const Built = () => {
             <div>
                 <Category></Category>
             </div>
-            <div className="flex gap-10 mt-12">
-                <div className="w-[40%] space-y-8 pr-20 mt-5">
+            <div className="flex flex-col md:flex-row gap-10 mt-12">
+                <div className="md:w-[40%] space-y-8 pr-20 mt-5">
                     <h2 className="text-[22px] font-medium">Brainstorm</h2>
                     <Paragraph description="Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on."></Paragraph>
 
@@ -26,7 +26,7 @@ const Built = () => {
                         <FaArrowRightLong />
                     </div>
                 </div>
-                <div className="w-[60%]">
+                <div className="md:w-[60%]">
                     <img src={brainstormImg} alt="" />
                 </div>
             </div>
